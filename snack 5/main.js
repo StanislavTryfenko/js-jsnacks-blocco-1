@@ -19,6 +19,6 @@ while(ask < 6){
     
 } */
 
-const dispari = numbers.filter(number => number % 2 == 0 )
+const dispari = numbers.filter(number => number % 2 !== 0 )
 
 console.log(dispari);
