@@ -6,7 +6,10 @@ while(ask < 6){
 
     let input = Number(prompt("inserisci un numero"))
 
-    numbers.push(input);
+    if (input % 2 !== 0) {
+        numbers.push(input);
+        
+    }
 
     ask++
 };
@@ -15,10 +18,18 @@ while(ask < 6){
 
     let input = Number(prompt("inserisci un numero"))
 
-    numbers.push(input);
+        if (input % 2 !== 0) {
+        numbers.push(input);
+        
+    }
+
+
     
 } */
 
-const dispari = numbers.filter(number => number % 2 !== 0 )
 
-console.log(dispari);
+
+
+/* const dispari = numbers.filter(number => number % 2 !== 0 ) */
+
+console.log(numbers);
